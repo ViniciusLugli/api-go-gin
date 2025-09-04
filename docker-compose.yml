@@ -27,7 +27,7 @@ services:
   myapp:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: build/Dockerfile.dev
     env_file:
       - ./.env
     environment:
